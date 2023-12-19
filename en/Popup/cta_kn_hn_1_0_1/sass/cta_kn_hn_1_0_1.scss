@@ -1,0 +1,70 @@
+.cta_kn_hn_1_0_1 {
+  &__btn {
+    background-image: linear-gradient(#d68b25, #c8690a);
+    border-radius: 50px;
+    width: 430px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    &:hover {
+      background-image: linear-gradient(#b15b05, #cf8337);
+      transition: all 0.5s ease-in-out;
+    }
+  }
+  &__header {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 25px;
+    padding: 5px;
+    width: 260px;
+    p {
+      margin: 0;
+      text-align: center;
+      color: #003c77;
+      font-weight: 600;
+      font-size: 12px;
+    }
+  }
+  &__pic {
+    width: 30px;
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+  &__text {
+    color: #fff;
+    text-align: center;
+    margin: 5px 0 0;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  @media (max-width: 430px) {
+    &__btn {
+      width: 100%;
+    }
+  }
+  @media (max-width: 390px) {
+    &__header {
+      p {
+        font-size: 12px;
+      }
+    }
+    &__text {
+      font-size: 12px;
+    }
+  }
+  @media (max-width: 280px) {
+    &__btn {
+      border-radius: 30px;
+    }
+    &__header {
+      border-radius: 15px;
+    }
+  }
+}
