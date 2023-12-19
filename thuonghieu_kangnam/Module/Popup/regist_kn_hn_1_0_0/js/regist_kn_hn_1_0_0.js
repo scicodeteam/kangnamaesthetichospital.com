@@ -24,7 +24,6 @@ const regist_kn_hn_1_0_0 = `
                         <article>
                             <div class="fct">
                                 <div style="display:none">
-                                    <input id="imob" name="imob" value="">
                                     <input id="iemail" name="iemail" type="textbox" placeholder="Email:">
                                     <input id="gclid_field" name="referred" value="">
                                     <input id="code_campaign" name="code_campaign" value="582387659">
@@ -43,27 +42,27 @@ const regist_kn_hn_1_0_0 = `
                                 </div>   
                                 <div class="form-group">
                                     <div class="regist_kn_hn_1_0_0__name">
-                                        <img width="48" height="48" src="images/icon-user.png" alt="">
+                                        <img width="48" height="48" src="https://kangnamaesthetichospital.com/wp-content/themes/thuonghieu_kangnam/Module/Popup/regist_kn_hn_1_0_0/images/icon-user.png" alt="">
                                         <input name="iname" type="text" placeholder="* Họ và tên: ">
                                     </div>
                                     <div class="form-message"></div>
                                 </div>
 
                                 <div class="regist_kn_hn_1_0_0__viber form-group">
-                                    <img width="48" height="48" src="images/icon-viber.png" alt="">
+                                    <img width="48" height="48" src="https://kangnamaesthetichospital.com/wp-content/themes/thuonghieu_kangnam/Module/Popup/regist_kn_hn_1_0_0/images/icon-viber.png" alt="">
                                     <input onsubmit="return checkInp()" name="iviber" type="text"
                                         placeholder="* Viber:">
                                         <div class="form-message"></div>
                                 </div>
                                 <div class="regist_kn_hn_1_0_0__whatsapp form-group">
-                                    <img width="48" height="48" src="images/icon-whatsapp.png" alt="">
+                                    <img width="48" height="48" src="https://kangnamaesthetichospital.com/wp-content/themes/thuonghieu_kangnam/Module/Popup/regist_kn_hn_1_0_0/images/icon-whatsapp.png" alt="">
                                     <input onsubmit="return checkInp()" name="iwhatsapp" type="text"
                                         placeholder="* Whatsapp:">
                                         <div class="form-message"></div>
 
                                 </div>
                                 <div class="regist_kn_hn_1_0_0__zalo form-group">
-                                    <img width="48" height="48" src="images/icon-zalo.png" alt="">
+                                    <img width="48" height="48" src="https://kangnamaesthetichospital.com/wp-content/themes/thuonghieu_kangnam/Module/Popup/regist_kn_hn_1_0_0/images/icon-zalo.png" alt="">
                                     <input onsubmit="return checkInp()" name="izalo" type="text"
                                         placeholder="* Zalo:">
                                         <div class="form-message"></div>

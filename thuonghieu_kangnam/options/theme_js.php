@@ -10,5 +10,5 @@
     include(locate_template('Module/assets/js/module.min.js')); 
     include(locate_template('Module/Header/header_20_0_0/js/header_20_0_0.min.js')); 
     include(locate_template('Module/Popup/popup_map_1_0_0/js/popup_map_1_0_0.min.js')); 
-    include(locate_template('Module/Popup/pop_formreg_1_2_0/js/pop_formreg_1_2_0.min.js')); 
+    include(locate_template('Module/Popup/regist_kn_hn_1_0_0/js/regist_kn_hn_1_0_0.min.js')); 
 ?>
