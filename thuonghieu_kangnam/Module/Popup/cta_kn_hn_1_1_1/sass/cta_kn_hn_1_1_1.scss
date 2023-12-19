@@ -1,0 +1,45 @@
+.cta_kn_hn_1_1_1 {
+  &__btn {
+    background-image: linear-gradient(#0f60b1, #00356a);
+    border-radius: 15px;
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &:hover {
+      background-image: linear-gradient(#00356a, #0f60b1);
+      transition: all 0.5s ease-in-out;
+    }
+  }
+  &__text {
+    color: #fff;
+    text-align: center;
+    margin: 5px 0 0;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  &__down {
+    width: 22px;
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+  @media (max-width: 430px) {
+    &__btn {
+      width: 75%;
+    }
+  }
+  @media (max-width: 375px) {
+    &__text {
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 280px) {
+    &__btn {
+      width: 100%;
+    }
+  }
+}
