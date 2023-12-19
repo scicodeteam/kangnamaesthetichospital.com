@@ -84,8 +84,8 @@ const regist_kn_hn_1_0_1 = `
         </div>
     </form>
 `;
-if (document.querySelectorAll(".kntv")) {
-  const callregist_kn_hn_1_0_1 = document.querySelectorAll(".kntv");
+if (document.querySelectorAll(".knkm")) {
+  const callregist_kn_hn_1_0_1 = document.querySelectorAll(".knkm");
   for (let i = 0; i < callregist_kn_hn_1_0_1.length; i++) {
     callregist_kn_hn_1_0_1[i].addEventListener("click", () => {
       document

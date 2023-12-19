@@ -28,5 +28,5 @@
     include(locate_template("Module/Footer/footer_knhn_1_0_0/sass/footer_knhn_1_0_0.min.css"));
     include(locate_template("Module/Other/tool_info_1_2_0/sass/tool_info_1_2_0.min.css"));
     include(locate_template("Module/Popup/popup_map_1_0_0/sass/popup_map_1_0_0.min.css"));
-    include(locate_template("Module/Popup/pop_formreg_1_2_0/sass/pop_formreg_1_2_0.min.css"));
+    include(locate_template("Module/Popup/regist_kn_hn_1_0_0/sass/regist_kn_hn_1_0_0.min.css"));
 ?>
