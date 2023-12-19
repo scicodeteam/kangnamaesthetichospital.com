@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3c.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>KANGNAM</title>
+    <meta name="Resource-type" content="Document" />
+    <meta name="viewport"
+        content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" type="text/css" href="../../media/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/doctor_10_0_0.css" />
+    <script src="js/doctor_10_0_0.js"></script>
+
+</head>
+
+<body>
+    <div class="doctor_10_0_0">
+        <div class="container">
+            <div class="doctor_10_0_0__box">
+                <div class="item">
+                    <div class="pic">
+                        <img src="images/bs.jpg" alt="">
+                    </div>
+                    <div class="cont">
+                        <p class="cn">Hạnh phúc là được làm đẹp cho người<br> làm đẹp cho đời...
+                            Và đó là động lực để<br>
+                            chúng tôi không
+                            ngừng nỗ lực</p>
+                        <p class="cg">Chuyên gia hàm mặt</p>
+                        <h4 class="doctor_10_0_0__name">TS Bs.Richard Huy</h4>
+                        <ul>
+                            <li>
+                                - Trưởng ekip phẫu thuật Hành trình lột xác
+                            </li>
+                            <li>
+                                - Danh hiệu "bàn tay vàng" phẫu thuật thẩm mỹ
+                            </li>
+                            <li>
+                                - 20 năm kinh nghiệm PTTM
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="doctor_10_0_0__tabs">
+                <div class="doctor_10_0_0__item">
+                    <img src="images/logokn.jpg" alt="">
+                </div>
+                <div class="doctor_10_0_0__item">
+                    <img src="images/bs1.jpg" alt="">
+                    <div class="doctor_10_0_0__ten">
+                        Bác sĩ <br>
+                        Richard Huy
+                    </div>
+                </div>
+                <div class="doctor_10_0_0__item">
+                    <img src="images/bs2.jpg" alt="">
+                    <div class="doctor_10_0_0__ten">
+                        Bác sĩ <br>
+                        Charlie trần
+                    </div>
+                </div>
+                <div class="doctor_10_0_0__item">
+                    <img src="images/bs1.jpg" alt="">
+                    <div class="doctor_10_0_0__ten">
+                        Bác sĩ <br>
+                        Richard Huy
+                    </div>
+                </div>
+                <div class="doctor_10_0_0__item">
+                    <img src="images/bs2.jpg" alt="">
+                    <div class="doctor_10_0_0__ten">
+                        Bác sĩ <br>
+                        Charlie trần
+                    </div>
+                </div>
+                <div class="doctor_10_0_0__item">
+                    <img src="images/bs1.jpg" alt="">
+                    <div class="doctor_10_0_0__ten">
+                        Bác sĩ <br>
+                        Richard Huy
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+<script>
+    let img = [];
+    let cont = [];
+    img.push("images/bs-t.jpg");
+    cont.push('<p class="cn">Hạnh phúc là được làm đẹp cho người<br> làm đẹp cho đời...Và đó là động lực để<br>chúng tôi không ngừng nỗ lực </p><p class="cg">Chuyên gia hàm mặt</p><h4 class="doctor_10_0_0__name">TS Bs.Charlie Trần</h4><ul><li>- Trưởng ekip phẫu thuật Hành trình lột xác2</li><li>- Trưởng ekip phẫu thuật Hành trình lột xác2</li></ul>');
+    img.push("images/bs.jpg");
+    cont.push('<p class="cn">Vui vẻ là được làm đẹp cho người<br> làm đẹp cho đời...Và đó là động lực để<br>chúng tôi không ngừng nỗ lực</p><p class="cg">Chuyên gia hàm mặt</p><h4 class="doctor_10_0_0__name">TS Bs.Richard Huy</h4><ul><li>- Trưởng ekip phẫu thuật Hành trình lột xác</li><li>- Trưởng ekip phẫu thuật Hành trình lột xác</li></ul>');
+    let pic = document.querySelector(".doctor_10_0_0__box img");
+    let content = document.querySelector(".cont");
+    let random;
+    let runSlide = setInterval(function () {
+        for (let i = 0; i < img.length; i++) {
+            random = Math.floor(Math.random() * img.length);
+        }
+        pic.setAttribute("src", img[random]);
+        content.innerHTML = cont[random];
+    }, 1000);
+    setTimeout(runSlide, 1000);
+</script>
+
+</html>

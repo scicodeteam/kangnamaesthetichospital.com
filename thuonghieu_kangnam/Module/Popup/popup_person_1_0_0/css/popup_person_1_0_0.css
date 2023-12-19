@@ -1,0 +1,38 @@
+.popup_person_1_0_0 {
+  position: fixed;
+  z-index: 14;
+  opacity: 0;
+  left: 20px;
+  bottom: 50px;
+  padding: 10px 15px;
+  border-radius: 50px;
+  background: #053D7C;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+.popup_person_1_0_0__pic {
+  width: 60px;
+  height: 60px;
+}
+.popup_person_1_0_0__pic img {
+  width: 100%;
+  border-radius: 100%;
+}
+.popup_person_1_0_0__box {
+  padding-left: 15px;
+}
+.popup_person_1_0_0__name {
+  font-size: 14px;
+}
+.popup_person_1_0_0__ct, .popup_person_1_0_0__time {
+  font-size: 13px;
+}
+
+@media (max-width: 414px) {
+  .popup_person_1_0_0 {
+    display: none !important;
+  }
+}
+
+/*# sourceMappingURL=popup_person_1_0_0.css.map */

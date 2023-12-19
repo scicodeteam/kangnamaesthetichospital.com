@@ -1,0 +1,89 @@
+<div class="footer_knhn_1_0_0__note">
+        <div class="container">
+            <span>Kết quả phụ thuộc vào cơ địa mỗi người(*)</span>
+        </div>
+    </div>
+    <section class="footer_knhn_1_0_0">
+        <div class="container">
+            <div class="footer_knhn_1_0_0__inner">
+                <div class="footer_knhn_1_0_0__aside">
+                    <div class="footer_knhn_1_0_0__logo">
+                        <img width="312" height="93" src="https://kangnamaesthetichospital.com/css/footer_knhn_1_0_0/images/logo.webp" alt="">
+                    </div>
+                </div>
+                <div class="footer_knhn_1_0_0__box">
+                    <div class="footer_knhn_1_0_0__contact">
+                        <a class="footer_knhn_1_0_0__contactItem" href="tel:0016502852885">
+                            <div class="footer_knhn_1_0_0__contactIcon"><img width="78" height="78" src="https://kangnamaesthetichospital.com/css/footer_knhn_1_0_0/images/phone.svg" alt=""></div>
+                            <div class="footer_knhn_1_0_0__contactText">
+                                <span class="footer_knhn_1_0_0__contactTextLabel">hotline</span>
+                                <span class="footer_knhn_1_0_0__contactTextNumber">001650-2852-885</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_knhn_1_0_0__inner">
+                <div class="footer_knhn_1_0_0__aside">
+                    <div class="footer_knhn_1_0_0__address footer_knhn_1_0_0__address--1">
+                        <div class="footer_knhn_1_0_0__img">
+                            <img width="23" height="30" src="https://kangnamaesthetichospital.com/css/footer_knhn_1_0_0/images/calculator-s.svg" alt="add">
+                            <p><b>Lịch làm việc:</b></p>
+                        </div>
+                        <p>Thứ hai đến chủ nhật, từ 8h - 17h</p>
+                    </div>
+                    <div class="footer_knhn_1_0_0__address">
+                        <div class="footer_knhn_1_0_0__img">
+                            <img width="23" height="30" src="https://kangnamaesthetichospital.com/css/footer_knhn_1_0_0/images/add.svg" alt="add">
+                            <p><b>Cơ sở Hà Nội:</b></p>
+                        </div>
+                        <p>&#8901; Địa chỉ: 190 Trường Chinh, P. Khương Thượng, Q. Đống Đa, Hà Nội</p>
+                        <p>&#8901; Hotline: +84 968.999.777</p>
+                    </div>
+                    <div class="footer_knhn_1_0_0__address">
+                        <div class="footer_knhn_1_0_0__img">
+                            <img width="23" height="30" src="https://kangnamaesthetichospital.com/css/footer_knhn_1_0_0/images/add.svg" alt="add">
+                            <p><b>Cơ sở TP. Hồ Chí Minh:</b></p>
+                        </div>
+                        <p>&#8901; Địa chỉ: 666 CTM8, P.5, Q. Tân Bình, Tp.HCM</p>
+                        <p>&#8901; Hotline: +84 948.44.99.88</p>
+                    </div>
+                </div>
+                <div class="footer_knhn_1_0_0__box">
+                    <div class="footer_knhn_1_0_0__item">
+                        <div class="footer_knhn_1_0_0__slogan footer_knhn_1_0_0__slogan--2">hệ thống bệnh viện & viện thẩm mỹ chuẩn hàn</div>
+                        <p class="footer_knhn_1_0_0__info">
+                            Công ty Cổ phần Bệnh viện thẩm mỹ Kangnam Hà Nội Giấy chứng nhận đăng ký doanh nghiệp số: 0106521588
+                            do Phòng đăng ký kinh doanh - Sở kế hoạch và đầu tư Tp. Hà Nội cấp ngày 24/4/2014 <br>
+                            Giấy phép hoạt động khám bệnh, chữa bệnh số: 194/BYT - GPHĐ do Bộ Y tế cấp ngày 07/02/2018
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_knhn_1_0_0__content">
+                <div class="footer_knhn_1_0_0__list footer_knhn_1_0_0__list--1">
+                    <a rel="nofollow" href="https://www.facebook.com/Thammykangnam" target="_blank" class="footer_knhn_1_0_0__icon">
+                        <img width="32" height="32" src="https://kangnamaesthetichospital.com/css/footer_knhn_1_0_0/images/facebook.png" alt="fb">
+                    </a>
+                    <a rel="nofollow" href="https://www.youtube.com/@ThammyKangnam" target="_blank" class="footer_knhn_1_0_0__icon">
+                        <img width="32" height="32" src="https://kangnamaesthetichospital.com/css/footer_knhn_1_0_0/images/youtube.png" alt="youtube">
+                    </a>
+                    <a rel="nofollow" href="#" class="footer_knhn_1_0_0__icon" target="_blank">
+                        <img width="32" height="32" src="https://kangnamaesthetichospital.com/css/footer_knhn_1_0_0/images/instagram.png" alt="Ins">
+                    </a>
+                    <a rel="nofollow" href="https://www.tiktok.com/@drkangnam" target="_blank" class="footer_knhn_1_0_0__icon">
+                        <img width="32" height="32" src="https://kangnamaesthetichospital.com/css/footer_knhn_1_0_0/images/tiktok.png" alt="tiktok">
+                    </a>
+                </div>
+                <a rel="nofollow" href="https://kangnamaesthetichospital.com/" target="_blank" class="footer_knhn_1_0_0__list footer_knhn_1_0_0__list--2">
+                    <!-- <span>Kangnam Hải ngoại +</span> -->
+                    <div class="footer_knhn_1_0_0__pic">
+                        <img width="197" height="26" src="https://kangnamaesthetichospital.com/css/footer_knhn_1_0_0/images/list.png" alt="">
+                    </div>
+                </a>
+                <a rel="nofollow" href="https://kangnamaesthetichospital.com/" target="_blank" class="footer_knhn_1_0_0__list footer_knhn_1_0_0__list--3">
+                    <img width="151" height="57" src="https://kangnamaesthetichospital.com/css/footer_knhn_1_0_0/images/bct.png" alt="">
+                </a>
+            </div>
+        </div>
+    </section>

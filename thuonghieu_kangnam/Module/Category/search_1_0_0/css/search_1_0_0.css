@@ -1,0 +1,29 @@
+.search_1_0_0 {
+    margin: 20px 0 40px
+}
+
+.search_1_0_0__title {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: #f26649;
+    text-transform: uppercase
+}
+
+.search_1_0_0__info {
+    font-size: 14px;
+    font-style: italic;
+    text-align: justify
+}
+
+.search_1_0_0__info b {
+    color: #f26649
+}
+
+@media (max-width: 414px) {
+    .search_1_0_0 {
+        margin: 20px 0
+    }
+}
+
+/*# sourceMappingURL=../maps/search.css.map */

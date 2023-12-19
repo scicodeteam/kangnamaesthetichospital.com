@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3c.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>KANGNAM</title>
+    <meta name="Resource-type" content="Document" />
+    <meta name="viewport"
+        content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" type="text/css" href="../../media/css/style.css" />
+    <script src="js/service_15_0_0.js"></script>
+
+</head>
+
+<body>
+    <link rel="stylesheet" type="text/css" href="css/service_15_0_0.css" />
+    <div class="service_15_0_0">
+        <div class="container">
+            <div class="service_15_0_0__box">
+                <div class="service_15_0_0__box2">
+                    <img src="images/t2-3.jpg" alt="">
+                    <div class="service_15_0_0__box3">
+                        <div class="service_15_0_0__title3">
+                            CẮT MÍ PLASMA HÀN QUỐC
+                        </div>
+                        <div class="service_15_0_0__text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. book.
+                        </div>
+                    </div>
+                </div>
+                <div class="service_15_0_0__boxCt">
+                    <div class="service_15_0_0__title">DỊCH VỤ NỔI BẬT</div>
+                    <div class="service_15_0_0__box1">
+                        <div class="service_15_0_0__item">
+                            <a href="">
+                                <img src="images/catmi.jpg" alt="">
+                                <div class="service_15_0_0__content"><a href="/">CẮT MÍ</a></div>
+                            </a>
+                        </div>
+                        <div class="service_15_0_0__item">
+                            <a href="">
+                                <img src="images/nangmui.jpg" alt="">
+                                <div class="service_15_0_0__content"><a href="/">NÂNG MŨI</a></div>
+                            </a>
+                        </div>
+                        <div class="service_15_0_0__item">
+                            <a href="">
+                                <img src="images/chinhham.jpg" alt="">
+                                <div class="service_15_0_0__content"><a href="/">CHỈNH HÀM</a></div>
+                            </a>
+                        </div>
+                        <div class="service_15_0_0__item">
+                            <a href="">
+                                <img src="images/nangnguc.jpg" alt="">
+                                <div class="service_15_0_0__content"><a href="/">NÂNG NGỰC</a></div>
+                            </a>
+                        </div>
+                        <div class="service_15_0_0__item">
+                            <a href="">
+                                <img src="images/hutmo.jpg" alt="">
+                                <div class="service_15_0_0__content"><a href="/">HÚT MỠ</a></div>
+                            </a>
+                        </div>
+                        <div class="service_15_0_0__item">
+                            <a href="">
+                                <img src="images/cangda.jpg" alt="">
+                                <div class="service_15_0_0__content"><a href="/">CĂNG DA</a></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        let img = [];
+        let title = [];
+        let des = [];
+        img.push("images/t2-31.jpg");
+        title.push("NÂNG MŨI CẤU TRÚC 4D");
+        des.push("Nâng mũi đẹp tại<br> Bệnh Viện thẩm mỹ Kangnam");
+        img.push("images/t2-3.jpg");
+        title.push("CHỈNH HÀM VLINE");
+        des.push("Chỉnh hàm đẹp tại <br> Bệnh Viện thẩm mỹ Kangnam");
+        let pic = document.querySelector(".service_15_0_0__box2 img");
+        let tieude = document.querySelector(".service_15_0_0__title3");
+        let mota = document.querySelector(".service_15_0_0__text");
+        let random;
+        let runSlide = setInterval(function () {
+            for (let i = 0; i < img.length; i++) {
+                random = Math.floor(Math.random() * img.length);
+            }
+            pic.setAttribute("src", img[random]);
+            tieude.innerHTML = title[random];
+            mota.innerHTML = des[random];
+        }, 1000);
+        setTimeout(runSlide, 1000);
+    </script>
+</body>
+
+</html>

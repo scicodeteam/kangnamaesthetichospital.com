@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3c.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>SCI FRAMEWORK</title>
+    <meta name="Resource-type" content="Document" />
+    <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" type="text/css" href="../../media/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/popup_map_1_0_0.css" />
+    <script src="../../media/dist/jquery.min.js"></script>
+    <script src="../../media/dist/lib.js"></script>
+
+</head>
+
+<body>
+    <div class="popup_map_1_0_0">
+        <div class="container">
+            <div class="popup_map_1_0_0__bg"></div>
+            <div class="popup_map_1_0_0__form">
+                <div class="popup_map_1_0_0__box">
+                    <article>
+                        <div class="popup_map_1_0_0__content">
+                            <div class="popup_map_1_0_0__item">
+                                <div class="popup_map_1_0_0__tt">
+                                    <img src="images/tt_hn.png" alt="">
+                                </div>
+                                <div class="popup_map_1_0_0__ct">
+                                    <div class="popup_map_1_0_0__pic">
+                                        <img src="images/KN-hn.jpg" alt="">
+                                    </div>
+                                    <a href="https://www.google.com/maps/place/B%E1%BB%87nh+Vi%E1%BB%87n+Th%E1%BA%A9m+M%E1%BB%B9+Kangnam+H%C3%A0n+Qu%E1%BB%91c/@21.0004462,105.8284237,17z/data=!4m8!1m2!2m1!1zQuG7h25oIFZp4buHbiBUaOG6qW0gTeG7uSBLYW5nbmFtIA!3m4!1s0x3135ab920d07ad6b:0xaeafc086533191b!8m2!3d21.0004112!4d105.8306137"
+                                        target="_blank">
+                                        <img src="images/hn.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="popup_map_1_0_0__item">
+                                <div class="popup_map_1_0_0__tt">
+                                    <img src="images/tt_hcm.png" alt="">
+                                </div>
+                                <div class="popup_map_1_0_0__ct">
+                                    <div class="popup_map_1_0_0__pic">
+                                        <img src="images/KN-hcm.jpg" alt="">
+                                    </div>
+                                    <a href="https://www.google.com/maps/place/B%E1%BB%87nh+Vi%E1%BB%87n+Th%E1%BA%A9m+M%E1%BB%B9+Kangnam+H%C3%A0n+Qu%E1%BB%91c/@10.7817488,106.6797661,17z/data=!3m1!4b1!4m5!3m4!1s0x31752edf6f710189:0xb553f42d991d07dd!8m2!3d10.7817488!4d106.6819548?hl=vi"
+                                        target="_blank">
+                                        <img src="images/hcm.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <a id="popup_map_1_0_0__close"></a>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    $(document).ready(function() {
+        $(".popup_map_1_0_0__click").click(function() {
+            $(".popup_map_1_0_0__form").fadeIn(5);
+            $(".popup_map_1_0_0__bg").fadeIn(500);
+        });
+        $(" #popup_map_1_0_0__close, .popup_map_1_0_0__bg").click(function() {
+            $(".popup_map_1_0_0__form").fadeOut(500);
+            $(".popup_map_1_0_0__bg").fadeOut(500);
+
+        });
+    });
+</script>
+
+</html>

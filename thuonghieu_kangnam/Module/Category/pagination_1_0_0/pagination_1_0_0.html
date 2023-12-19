@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3c.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>SCI FRAMEWORK</title>
+	<meta name="Resource-type" content="Document" />
+	<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" type="text/css" href="../core/css/style.css" />
+	<script src="../core/dist/jquery.min.js"></script>
+	
+</head>
+
+<body>
+
+    <style>
+        .pagination_1_0_0 {
+			text-align: center
+		}
+
+		.pagination_1_0_0__box {
+			display: flex;
+			justify-content: center
+		}
+
+		.pagination_1_0_0__box a {
+			border: 1px solid #004689;
+			width: 30px;
+			height: 30px;
+			display: block;
+			line-height: 30px;
+			margin: 0 5px
+		}
+
+		.pagination_1_0_0__box a.active {
+			background: cornflowerblue;
+			color: #fff
+		}
+
+		/*# sourceMappingURL=../maps/pagination.css.map */
+    </style>
+
+	<div class="pagination_1_0_0">
+		<div class="pagination_1_0_0__box">
+			<a href="#" class="active"><span>1</span></a>
+			<a href="#"><span>2</span></a>
+			<a href="#"><span>3</span></a>
+			<a href="#"><span>4</span></a>
+		</div>
+	</div>
+
+	<script>
+		  $(".pagination_1_0_0__box a").click(function() {
+			$(".pagination_1_0_0__box a").removeClass("active");
+			$(this).addClass("active");
+		});
+	</script>
+
+</body>
+
+
+</html>

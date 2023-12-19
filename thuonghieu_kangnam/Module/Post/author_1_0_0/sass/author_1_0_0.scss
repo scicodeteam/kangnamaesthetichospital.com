@@ -1,0 +1,156 @@
+.author_1_0_0 {
+    background-image: url(../images/bg-profile.jpg);
+    background-repeat: no-repeat;
+
+    &__profile {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding-top: 30px;
+    }
+
+    &__image {
+        width: 20%;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__name {
+        font-size: 22px;
+        font-weight: 600;
+        margin: 0;
+        color: #000;
+    }
+
+    &__info {
+        display: flex;
+        gap: 20px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    &__box {
+        max-width: 50%;
+        width: 100%;
+    }
+
+    &__item {
+        margin-bottom: 15px;
+        border: 1px solid #f1f1f1;
+        border-radius: 4px;
+        overflow: hidden;
+        box-shadow: 0 0 2px 0 #e7e7e7;
+    }
+
+    &__btn {
+        background-color: #fff;
+        font-size: 17px;
+        font-weight: 600;
+        margin: 0;
+        color: #000;
+        position: relative;
+        border-bottom: 1px solid #f1f1f1;
+
+        &.active {
+            background-color: #fff;
+            border-bottom: none;
+        }
+
+        img {
+            width: 20px;
+            height: auto;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        span {
+            padding-left: 30px;
+        }
+    }
+
+    &__content {
+        padding: 0;
+
+        >p {
+            margin: 15px 0;
+            padding: 0 20px;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+
+            li {
+                padding: 10px 20px;
+
+                &:not(:last-child) {
+                    border-bottom: 1px solid #f1f1f1;
+                }
+            }
+        }
+    }
+
+    &__news {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+        transition: .3s all;
+
+        img {
+            width: 10%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        p {
+            flex: 1;
+            margin: 0;
+        }
+
+        &:not(:last-child) {
+            border-bottom: 1px solid #f1f1f1;
+        }
+
+        &:hover {
+            background-color: #eee;
+        }
+    }
+
+    &__more {
+        background-color: transparent;
+        border: none;
+        float: right;
+        font-style: italic;
+        font-weight: 500;
+        text-decoration: underline;
+        padding: 0 25px 10px 0;
+        cursor: pointer;
+    }
+
+    @media (max-width: 767px) {
+        &__image {
+            width: 40%;
+        }
+
+        &__name {
+            p {
+                font-size: 20px;
+            }
+        }
+
+        &__info {
+            flex-direction: column;
+        }
+
+        &__box {
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+}

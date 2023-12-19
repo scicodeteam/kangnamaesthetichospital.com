@@ -1,0 +1,24 @@
+.pagination_1_0_0 {
+    text-align: center
+}
+
+.pagination_1_0_0__box {
+    display: flex;
+    justify-content: center
+}
+
+.pagination_1_0_0__box a {
+    border: 1px solid #004689;
+    width: 30px;
+    height: 30px;
+    display: block;
+    line-height: 30px;
+    margin: 0 5px
+}
+
+.pagination_1_0_0__box a.active {
+    background: cornflowerblue;
+    color: #fff
+}
+
+/*# sourceMappingURL=../maps/pagination.css.map */

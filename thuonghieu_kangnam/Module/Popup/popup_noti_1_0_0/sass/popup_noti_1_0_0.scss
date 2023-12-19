@@ -1,0 +1,186 @@
+$r1440: "(max-width:1440px)";
+$r1366: "(max-width:1366px)";
+$r1280: "(max-width:1280px)";
+$r1024: "(max-width:1024px)";
+$r768: "(max-width:812px)";
+$r414: "(max-width:414px)";
+$r375: "(max-width:375px)";
+$r360: "(max-width:360px)";
+$r320: "(max-width:320px)";
+$main:#00619b;
+$color1:#004689;
+a {
+    text-decoration: none;
+}
+
+.icon_sale {
+    img {
+        width: auto;
+    }
+}
+
+.popup_noti_1_0_0 {
+    display: none;
+    z-index: 16;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    &_box {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../images/bg_bell.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 700px;
+        position: relative;
+    }
+    article {
+        z-index: 11;
+        margin: 10px auto;
+        width: 440px;
+        position: relative;
+        border-radius: 4px;
+    }
+    &_header {
+        h3 {
+            margin-top: 0;
+            text-transform: uppercase;
+            color: #000;
+            font-weight: 600;
+        }
+    }
+    &_content {
+        .scrollbar {
+            float: left;
+            height: 500px;
+            width: 100%;
+            overflow-y: scroll;
+        }
+        .force-overflow {
+            min-height: 320px;
+        }
+        #style-1::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+            background-color: #F5F5F5;
+        }
+        #style-1::-webkit-scrollbar {
+            width: 0px;
+            background-color: #F5F5F5;
+        }
+        #style-1::-webkit-scrollbar-thumb {
+            border-radius: 15px;
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+            background-color: #0055A4;
+        }
+    }
+    &_item {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        align-items: center;
+        &_pic {
+            img {
+                width: 100%;
+            }
+        }
+        &_sub {
+            padding-left: 10px;
+            color: #000;
+            .time {
+                color: #838383;
+            }
+        }
+    }
+    #popup_noti_1_0_0_closePopup {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        transition: all 0.5s ease 0s;
+        display: block;
+        i {
+            font-size: 30px;
+            color: #FF0000;
+        }
+    }
+}
+
+@media #{$r414} {
+    .popup_noti_1_0_0 {
+        &_box {
+            background-size: 100%;
+            min-height: 500px;
+        }
+        article {
+            width: 340px;
+        }
+        &_content {
+            .scrollbar {
+                height: 400px;
+            }
+        }
+    }
+}
+
+@media #{$r375} {
+    .popup_noti_1_0_0 {
+        article {
+            width: 310px;
+        }
+        &_header {
+            h3 {
+                font-size: 20px;
+            }
+        }
+        &_content {
+            font-size: 14px;
+            .scrollbar {
+                height: 350px;
+            }
+        }
+        #popup_noti_1_0_0_closePopup {
+            i {
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+@media #{$r360} {
+    .popup_noti_1_0_0 {
+        article {
+            width: 300px;
+        }
+        &_item {
+            margin-bottom: 5px;
+        }
+    }
+}
+
+@media #{$r320} {
+    .popup_noti_1_0_0 {
+        article {
+            width: 265px;
+        }
+        &_header {
+            h3 {
+                font-size: 18px;
+            }
+        }
+        #popup_noti_1_0_0_closePopup {
+            i {
+                font-size: 22px;
+            }
+        }
+        &_content {
+            font-size: 13px;
+            .scrollbar {
+                height: 300px;
+            }
+        }
+    }
+}

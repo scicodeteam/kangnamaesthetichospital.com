@@ -1,0 +1,232 @@
+
+$r1024: "(max-width:1024px)";
+$r768: "(max-width:812px)";
+$r414: "(max-width:414px)";
+$r375: "(max-width:375px)";
+$r360: "(max-width:360px)";
+$r320: "(max-width:320px)";
+%bg1{
+	background: rgba(0,0,0,0.9);
+}
+%icon1{
+	background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAMBJREFUeNqc0z0KAjEQhuFx8E5qrqFeQdBCu0WwF2zsxd7fG+QCC+reyW8kgRjza+DdIksedgLb01rfiWiPWqpfA9QwHjt0QaM/gJucF+SFxpWQBabowWbTQucC6AuQDXZeCjTJQD+Aj+SgIBBCfEjlgBjiQie0SAGy+okLFGiLDmgeA1JfYkfYoBlaO6MVI0Mzgox0dEZTpYgAV3PwGbgjlUNCAOUgLgSSEFcAUYgrAfL+tQ8kyKoSsKsz0PItwAC6cz7Ubz7EKgAAAABJRU5ErkJggg==)
+}
+.popup_call_1_0_0{
+	font-size:14px;	
+	input,textarea{
+		box-sizing:border-box;
+		-moz-box-sizing:border-box;
+	}
+	.overlay_form{
+		font-size:14px;
+	}
+	.popup_call_1_0_0_overlay{
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		z-index: 10;
+		@extend %bg1;
+		opacity: 0.7;
+    }
+    &_logo{
+        background: url(../images/logo.png) center 0 no-repeat;
+        height: 60px;
+        @media #{$r414}{
+            height: 80px;
+        }
+    }
+    &_box{
+        position: absolute;
+        width:100%;
+        top:60px;
+        article{
+            background:#fff;
+            z-index: 11;
+            margin:50px auto;
+            padding:20px 0;
+            width:350px;
+            position: relative;
+            border-radius: 4px;
+            box-shadow:0 1px 10px rgba(0,0,0,0.1);
+            @media #{$r320}{
+                width: 300px;
+            }
+        }
+        
+        #popup_call_1_0_0_closePopup{
+            @extend %icon1;
+			background-position: 0 0;
+			background-repeat: no-repeat;
+            width:17px;
+            height:17px;
+            position:absolute;
+            top:-18px;
+            right:-24px;
+            transition:all 0.5s ease 0s;
+            font-family:arial;
+            @media #{$r375}{
+                top:10px;
+                right: 10px;
+            }
+            &:hover{transform:rotate(360deg)}
+        }
+    }
+    &_header{
+        text-align:center;
+        position: relative;
+        padding:0 20px;
+        &pc{
+            display: block;
+            text-align: center;
+            @media #{$r414}{
+                display: none;
+            }
+        }
+        &mb{
+            display: none;
+            @media #{$r414}{
+                display:block;
+            }
+            &-call{
+                background:#ea3b41;
+                color:#fff;
+                text-transform: uppercase;
+                display: block;
+                padding:12px 0;
+                border-radius: 4px;
+                font-weight: bold;
+                text-transform:uppercase;
+                text-decoration: none;
+                &-icon{
+                    background:url(../images/pop-call.png) 0 0 no-repeat;
+                    width:22px;
+                    height:22px;
+                    display:inline-block;
+                    vertical-align:middle;
+                    margin-right:10px;
+                    
+                }
+            }	
+        }
+        &-note{
+			padding:20px 0 10px;
+			color:#777;
+			font-weight: 600;
+			font-style: italic;
+		}
+        img{
+            display: block;
+            padding:0 0 20px;
+            margin: 0 auto;
+        }
+    }
+    &_content{
+        padding:5px 20px 1px;
+        input,textarea{
+            padding:9px 12px;
+        }
+        & > div:nth-child(1){
+            input,textarea{
+                background:#fff;
+                border:1px solid #b7b7b7;
+                border-radius: 4px;
+            }
+            input{
+                width:100%;
+                margin-bottom:4px;
+                font-size:14px;
+                padding:15px 0;
+                text-align: center;
+                color:#333;
+
+            }
+            select{
+                width:100%;
+                margin-bottom: 5px;
+                padding:5px 8px;
+                background:#ddd;
+                border:1px solid #adadad;
+                color:#444;
+                cursor: pointer;
+            }
+            textarea{
+                width:100%;
+                font-family:arial;
+                font-size:13px;
+                margin-bottom:4px;
+                resize:none;
+                height:96px;
+            }
+        }
+        & > div:nth-child(2){
+            input{
+                width:100%;
+                background:#00abe2;
+                color:#fff;
+                border:none;
+                cursor:pointer;
+                font-size:14px;
+                margin-top:5px;
+                border-radius: 4px;
+                text-transform: uppercase;
+                padding:15px 0;
+                &#pop_sent{
+                    font-weight: bold;
+                }
+            }
+            
+        }
+    }
+    .popup_call_1_0_0_clickPopup2{
+        color: #fff;
+        width: 100px;
+        height: 20px;
+        padding: 10px;
+        background-color: rgb(110, 45, 170);
+        &:hover{
+            background-color: #00abe2;
+            cursor: pointer;
+        }
+    }
+	@media screen and (max-width: 375px) {
+		.pop_box article{
+			width:345px;
+		}
+		.pop_box #close{
+			top:12px;
+			right:12px;
+		}
+		.pop_box #close{
+            background:url(../images/pucb-close2.png) center center no-repeat;
+		}
+	}
+	@media screen and (max-width: 360px) {
+		.pop_box article{
+			width:325px;
+		}
+	}
+	@media screen and (max-width: 320px) {
+		.pop_box article{
+			width:300px;
+		}
+		.pop_fr > div:nth-child(2) .sol p{
+			margin:3px 0;
+		}
+		.pop_fr{
+			padding:8px 10px 10px;
+		}
+		.pop_tt p{
+			padding:2px 30px 14px;
+			background:none;
+		}
+		.pop_fr > div:nth-child(2) .note{
+			display: none;
+		}
+		.pop_fr > div:nth-child(1) textarea{
+			height:70px;
+		}
+	}
+}
+

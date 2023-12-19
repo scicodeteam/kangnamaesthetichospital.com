@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAkCI,iBAAG;EACL,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,KAAK",
+"sources": ["../sass/banner_1_0_1.scss"],
+"names": [],
+"file": "banner_1_0_1.css"
+}

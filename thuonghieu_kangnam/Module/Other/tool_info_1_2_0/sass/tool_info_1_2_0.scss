@@ -1,0 +1,115 @@
+.tool_info_1_2_0 {
+    position: fixed;
+    background: #fff;
+    right: 0;
+    top: 130px;
+    z-index: 2
+}
+
+.tool_info_1_2_0__item {
+    width: 100%;
+    text-align: center;
+    padding: 6px 6px 0;
+    background-color: #fff;
+    margin: 0
+}
+
+.tool_info_1_2_0__item p {
+    margin-bottom: 3px
+}
+
+.tool_info_1_2_0__item a {
+    font-size: 13px
+}
+
+.tool_info_1_2_0__item .icon {
+    padding-top: 4px
+}
+
+.tool_info_1_2_0__item:hover {
+    background: #eee
+}
+
+.tool_info_1_2_0__call {
+    background: #003664;
+    padding-bottom: 10px
+}
+
+.tool_info_1_2_0__call:hover {
+    background: #004989
+}
+
+.tool_info_1_2_0__call a {
+    color: #fff;
+    font-weight: 600
+}
+
+.tool_info_1_2_0__uudai {
+    background: #daa236;
+    padding-bottom: 10px
+}
+
+.tool_info_1_2_0__uudai a {
+    color: #fff
+}
+
+.tool_info_1_2_0__uudai:hover {
+    background: #c78f1e
+}
+
+.tool_info_1_2_0__vitri {
+    background: #ff8212;
+    padding-bottom: 10px
+}
+
+.tool_info_1_2_0__vitri a {
+    color: #fff
+}
+
+.tool_info_1_2_0__vitri:hover {
+    background: #ef7b14
+}
+
+@media (max-width: 767px) {
+    .tool_info_1_2_0 {
+        background: #fff;
+        right: auto;
+        bottom: 0;
+        top: auto;
+        width: 100%
+    }
+
+    .tool_info_1_2_0 img {
+        max-width: 24px;
+        height: auto
+    }
+
+    .tool_info_1_2_0__box {
+        display: flex;
+        width: 428px;
+        margin: 0 auto;
+        justify-content: center
+    }
+
+    .tool_info_1_2_0__item {
+        height: 60px;
+        width: 20%;
+        margin: 0
+    }
+
+    .tool_info_1_2_0__mess {
+        display: none
+    }
+}
+
+@media (max-width: 428px) {
+    .tool_info_1_2_0__box {
+        width: auto
+    }
+}
+
+@media (max-width: 280px) {
+    .tool_info_1_2_0__item a {
+        font-size: 11px
+    }
+}

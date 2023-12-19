@@ -1,0 +1,124 @@
+.person_12_0_0__pic {
+  position: relative;
+}
+.person_12_0_0__pic img {
+  width: 100%;
+  display: block;
+}
+.person_12_0_0__cont {
+  position: absolute;
+  top: calc(50% - 119px);
+  left: calc(50% - 358px);
+  width: 713px;
+  height: 424px;
+  background-color: #0a4285;
+  padding: 120px;
+  font-size: 0;
+}
+.person_12_0_0__cont img {
+  width: 100%;
+  display: block;
+}
+.person_12_0_0__cont span {
+  position: absolute;
+  background-color: #ff8400;
+  z-index: 10;
+  transition: all 1s;
+}
+.person_12_0_0__cont span.type-top {
+  top: 0;
+  left: 0;
+  height: 6px;
+  width: 0;
+}
+.person_12_0_0__cont span.type-left {
+  bottom: 0;
+  left: 0;
+  height: 0;
+  width: 6px;
+}
+.person_12_0_0__cont span.type-bottom {
+  bottom: 0;
+  right: 0;
+  height: 6px;
+  width: 0;
+}
+.person_12_0_0__cont span.type-right {
+  top: 0;
+  right: 0;
+  height: 0;
+  width: 6px;
+}
+.person_12_0_0__cont:hover span.type-top {
+  width: 100%;
+}
+.person_12_0_0__cont:hover span.type-bottom {
+  width: 100%;
+}
+.person_12_0_0__cont:hover span.type-left {
+  height: 100%;
+}
+.person_12_0_0__cont:hover span.type-right {
+  height: 100%;
+}
+.person_12_0_0__cont:hover img {
+  transform: scale(1.05);
+  transition: 2s;
+}
+
+@media (max-width: 1440px) {
+  .person_12_0_0__cont {
+    top: calc(50% - 49px);
+    left: calc(50% - 268px);
+    width: 533px;
+    height: 315px;
+    padding: 70px;
+  }
+}
+@media (max-width: 1366px) {
+  .person_12_0_0__cont {
+    top: calc(50% - 63px);
+    left: calc(50% - 252px);
+    width: 501px;
+    height: 299px;
+    padding: 60px;
+  }
+}
+@media (max-width: 1280px) {
+  .person_12_0_0__pic {
+    height: 650px;
+  }
+  .person_12_0_0__cont {
+    top: calc(50% - 80px);
+    left: calc(50% - 238px);
+    width: 473px;
+    height: 281px;
+    padding: 60px;
+  }
+}
+@media (max-width: 1024px) {
+  .person_12_0_0__pic {
+    height: 530px;
+  }
+  .person_12_0_0__cont {
+    top: calc(40% - 352px);
+    left: calc(50% - 198px);
+    width: 393px;
+    height: 231px;
+    padding: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .person_12_0_0__pic {
+    height: 400px;
+  }
+  .person_12_0_0__cont {
+    top: calc(40% - 266px);
+    left: calc(50% - 148px);
+    width: 303px;
+    height: 175px;
+    padding: 40px;
+  }
+}
+
+/*# sourceMappingURL=person_12_0_0.css.map */

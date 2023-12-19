@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3c.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>SCI FRAMEWORK</title>
+    <meta name="Resource-type" content="Document" />
+    <meta name="viewport"
+        content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" type="text/css" href="../../media/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/slider_1_0_1.css" />
+
+</head>
+
+<body>
+    <section class="slider_1_0_1">
+        <div class="slide_thumb2">
+            <a href="#" class="slider_1_0_1_item">
+                <img src="images/slider-1.jpg" alt="">
+            </a>
+        </div>
+        <div class="slider_scroll">
+            <p>Cuộn<br> chuột</p>
+            <div class="scroll-indicator"></div>
+        </div>
+    </section>
+
+</body>
+<script>
+    let img = [];
+    let link = [];
+    let alt = [];
+    img.push("https://benhvienthammykangnam.vn/wp-content/uploads/2021/11/kientaonhansac.jpg");
+    link.push("https://benhvienthammykangnam.vn/kien-thuc-lam-dep/uu-dai/");
+    alt.push("kientaonhansac");
+
+    img.push("https://benhvienthammykangnam.vn/wp-content/uploads/2021/09/Slide-2-PC.jpg");
+    link.push("https://benhvienthammykangnam.vn/tin-tuc/lam-dep-kangnam-vung-xanh-an-toan/");
+    alt.push("Slide 2-PC");
+
+    let pic = document.querySelector(".slider_1_0_1_item img");
+    let lienKet = document.querySelector(".slider_1_0_1_item");
+    let random;
+    let runSlide = setInterval(function () {
+        for (let i = 0; i < img.length; i++) {
+            random = Math.floor(Math.random() * img.length);
+        }
+        pic.setAttribute("src", img[random]);
+        pic.setAttribute("alt", alt[random]);
+        lienKet.setAttribute("href", link[random]);
+    }, 1000);
+
+    setTimeout(runSlide, 1000);
+    console.log(lienKet);
+</script>
+
+</html>

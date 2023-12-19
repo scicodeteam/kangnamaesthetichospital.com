@@ -1,0 +1,90 @@
+.popup_map_1_0_0__bg {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: url(../images/overlay1.png);
+  opacity: 0.7;
+}
+.popup_map_1_0_0__form {
+  display: flex;
+  justify-content: center;
+}
+.popup_map_1_0_0__box {
+  position: fixed;
+  top: 150px;
+  z-index: 11;
+}
+.popup_map_1_0_0__box article {
+  background: #E1E1E1;
+  z-index: 11;
+  margin: 0 auto;
+  max-width: 420px;
+  height: 500px;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+.popup_map_1_0_0__content {
+  padding: 30px 30px 0px;
+}
+.popup_map_1_0_0__content img {
+  width: auto;
+}
+.popup_map_1_0_0__ct {
+  display: flex;
+  margin-bottom: 15px;
+}
+.popup_map_1_0_0__ct a img {
+  border-radius: 0 10px 10px 0;
+}
+.popup_map_1_0_0__pic img {
+  border-radius: 10px 0 0 10px;
+}
+.popup_map_1_0_0__tt {
+  margin-bottom: 5px;
+}
+.popup_map_1_0_0 #popup_map_1_0_0__close {
+  background: url(../images/pucb-close2.png) 0 0 no-repeat;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  transition: all 0.5s ease 0s;
+  font-family: arial;
+  cursor: pointer;
+}
+.popup_map_1_0_0 #popup_map_1_0_0__close:hover {
+  transform: rotate(360deg);
+}
+
+@media (max-width: 1440px) {
+  .popup_map_1_0_0__box {
+    top: 80px;
+    left: auto;
+    right: auto;
+  }
+}
+@media (max-width: 414px) {
+  .popup_map_1_0_0__box article {
+    max-width: 350px;
+    height: 460px;
+  }
+  .popup_map_1_0_0__tt img {
+    width: auto;
+  }
+  .popup_map_1_0_0__ct img {
+    width: 100%;
+  }
+}
+@media (max-width: 360px) {
+  .popup_map_1_0_0__box article {
+    max-width: 300px;
+    height: 400px;
+  }
+}
+
+/*# sourceMappingURL=popup_map_1_0_0.css.map */

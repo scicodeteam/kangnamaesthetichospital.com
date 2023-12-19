@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="css/popup_advright_1_0_0.css" rel="stylesheet" type="text/css" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, user-scalable=no">
+	<!-- <script src="media/js/jquery.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+  <style>
+    .popup_advright_1_0_0 {
+      display: block !important;
+      position: fixed;
+      bottom: 36px;
+      right: 3%;
+      width: 80px;
+      text-align: center;
+      z-index: 98;
+      background-color: #C75050;
+      border: 1px solid #CCCCCC;
+      color: #FFFFFF;
+      cursor: pointer;
+      display: block;
+      float: right;
+      margin: 0;
+      padding: 0 7px;
+    }
+    .popup_advright_1_0_0_box {
+      bottom: 0;
+      right: 0;
+      position: fixed;
+      z-index: 98 !important;
+      transition: 0.3s;
+    }
+    .popup_advright_1_0_0_close {
+      background-color: #C75050;
+      border: 1px solid #CCCCCC;
+      color: #FFFFFF;
+      cursor: pointer;
+      display: block;
+      float: right;
+      margin: 0;
+      padding: 0 7px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    @media (max-width: 414px) {
+      .popup_advright_1_0_0_box {
+        bottom: 53px;
+      }
+    }
+  </style>
+<body style="margin:0;padding:0">
+   <div class="popup_advright_1_0_0_box" style="display: block;">
+     <div class="popup_advright_1_0_0_close ">
+         x
+     </div>
+     <div class="popup_advright_1_0_0_desc">
+          <a href="#">
+             <picture>
+                <source media="(max-width:600px)" srcset="images/adv-m.jpg">
+                    <img src="images/adv.jpg">
+              </picture>
+          </a>
+     </div>
+   </div>
+   <script>
+    $(".popup_advright_1_0_0_close").click(function () {
+      $(".popup_advright_1_0_0_box").css({
+          "display" : "none",
+      });
+    });
+   </script>
+</body>
+</html>     
+        

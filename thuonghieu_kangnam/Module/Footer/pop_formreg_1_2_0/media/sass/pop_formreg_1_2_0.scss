@@ -1,0 +1,115 @@
+.pop_formreg_1_2_0 {
+    &__box {
+        .modal-close {
+            font-size: 25px;
+            line-height: 0.9;
+            margin-right: -16px;
+            margin-top: -10px;
+        }
+        .modal-box {
+            max-width: 350px;
+            min-width: 310px;           
+        }
+        .modal-header {
+            text-align: center;
+            border-bottom: unset;
+        }
+    }
+    &__des {
+        p {
+            font-size: 18px;
+            font-weight: 600;
+            color: #004a80;
+            margin: 0;
+        }
+        i {
+            color: #004a80;
+            font-size: 16px;
+        }
+    }
+    &__viber,
+    &__whatsapp,
+    &__zalo,
+    &__name {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 5px 10px;
+        border: 1px solid #004a80;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        input {
+            border: none;
+        }
+    }
+    &__name {
+        input {
+            color: black;
+        }
+    }
+    &__viber {
+        input {
+            color: #834995;
+        }
+    }
+    &__whatsapp {
+        input {
+            color: #00a859;
+        }
+    }
+    &__zalo {
+        input {
+            color: #0180c7;
+        }
+    }
+    &__sub {
+        text-align: center;
+        input {
+            font-style: unset;
+            background: url(../images/button.png) center 0 no-repeat;
+            background-size: 100%;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 600;
+            width: 62%;
+            height: 44px;
+            // padding: 0px 50px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            margin-bottom: 5px;
+        }
+        p {
+            margin: 0;
+            font-style: italic;
+        }
+    }
+    @media (max-width:280px) {
+        &__box {
+            .modal-box {
+                min-width: 250px;
+            }
+        }
+        &__viber,
+        &__whatsapp,
+        &__zalo,
+        &__name {
+            width: 100%;
+            input {
+                width: 100%;
+            }
+        }
+        &__des {
+            i {
+                font-size: 12px;
+            }
+        }
+        &__sub {
+            input {
+                width: 90%;
+            }
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+}

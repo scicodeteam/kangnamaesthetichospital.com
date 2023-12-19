@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SCI FRAMEWORK</title>
+    <link rel="stylesheet" type="text/css" href="../../media/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/popup_regist_1_0_8.css" />
+    <script src="../../media/dist/lib.min.js"></script>
+    <script src="../../media/dist/tiny.slider.min.js"></script>
+</head>
+
+<body style="margin:0;padding:0">
+
+    
+    <button type="button" class="btn btn-danger btnkn1km">button</button>
+    
+
+    <div class="popup_regist_1_0_8">
+        <div class="popup_regist_1_0_8_block">
+            <div class="popup_regist_1_0_8_overlay" id="popup_regist_1_0_8_overlay" style="display:none"></div>
+            <div id="popup_regist_1_0_8_overlayClickForm" class="popup_regist_1_0_8_overlayForm" style="display:none">
+                <div class="popup_regist_1_0_8_boxTv">
+                    <div class="regist_ft_1_0_8__form" id="regist_ft_1_0_8__form">
+                        <h2>
+                            Nhận báo giá thẩm mỹ
+                            <b id="close-form">╳</b>
+                        </h2>
+                        <span>* Để lại thắc mắc về chi phí, Kangnam liên hệ giải đáp cho bạn</span>
+                        <hr>
+                        <article>
+                            <div>
+                                <label>* Tên:</label>
+                                <input id="iname" name="iname" type="textbox" required>
+                            </div>
+                            <div>
+                                <label>* Số điện thoại:</label>
+                                <input id="imob" name="imob" type="textbox" required>
+                            </div>
+                            <div>
+                                <label>* Dịch vụ quan tâm:</label>
+                                <select name="icity" id="icity">
+                                    <option value="- Chọn -">--- Chọn ---</option>
+                                    <option value="Cắt mí">Cắt mí</option>
+                                    <option value="Nâng mũi">Nâng mũi</option>
+                                    <option value="Giảm mỡ">Giảm mỡ</option>
+                                    <option value="Nâng ngực">Nâng ngực</option>
+                                    <option value="Hàm mặt">Hàm mặt</option>
+                                </select>
+                            </div>
+                            <input  type="hidden" style="display:none" id="iemail" name="iemail" type="textbox" placeholder="Email:">
+                            <!-- <textarea id="itext" type="hidden" name="itext" value="" placeholder="Dịch vụ quan tâm"></textarea> -->
+                            <input type="hidden" id="gclid_field" name="gclid_field" value="">
+                            <input type="hidden" id="code_campaign" name="code_campaign" value="583971142">
+                            <input type="hidden" id="name_campaign" name="name_campaign" value="[Kangnam] Sale Kangnam">
+                        </article>
+                        <div class="reg">
+                            <input id="popup_regist_1_0_2_clickSent" onclick="ants_send_contact(this);" type="button" value="HOÀN THÀNH">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function(){
+
+const btnkn1km = document.getElementsByClassName("btnkn1km");
+const popup_regist_1_0_8_overlayClickForm = document.getElementById("popup_regist_1_0_8_overlayClickForm");
+const popup_regist_1_0_8_overlay = document.getElementById("popup_regist_1_0_8_overlay");
+const close_form = document.getElementById("close-form");
+
+for ( const regist of btnkn1km ){
+  regist.addEventListener("click", function(){
+    popup_regist_1_0_8_overlayClickForm.style.display = "block";
+    popup_regist_1_0_8_overlay.style.display = "block";
+  });
+}
+
+close_form.addEventListener("click", function(){
+  popup_regist_1_0_8_overlayClickForm.style.display = "none";
+  popup_regist_1_0_8_overlay.style.display = "none";
+});
+
+popup_regist_1_0_8_overlay.addEventListener("click", function(){
+  popup_regist_1_0_8_overlayClickForm.style.display = "none";
+  popup_regist_1_0_8_overlay.style.display = "none";
+});
+
+});
+
+var regist_ft_1_0_8__box = tns({
+        container: '.regist_ft_1_0_8__box',
+        items: 4,
+        slideBy: 'page',
+        autoplay: false,
+        autoplayButtonOutput: false,
+        mouseDrag: true,
+        loop: false,
+        nav: false,
+        gutter: 0,
+        responsive: {
+            0: {
+                items: 4
+            },
+            414: {
+                items: 4
+            },
+            768: {
+                items: 4
+            },
+            1024: {
+                items: 4
+            }
+        },
+    });
+</script>
+
+</html>
