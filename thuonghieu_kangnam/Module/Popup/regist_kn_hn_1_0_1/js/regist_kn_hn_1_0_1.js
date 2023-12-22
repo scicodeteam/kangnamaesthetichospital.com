@@ -43,27 +43,27 @@ const regist_kn_hn_1_0_1 = `
                                 </div>   
                                 <div class="form-group">
                                     <div class="regist_kn_hn_1_0_1__name">
-                                        <img width="48" height="48" src="images/icon-user.png" alt="">
+                                        <img width="48" height="48" src="https://kangnamaesthetichospital.com/wp-content/themes/thuonghieu_kangnam/Module/Popup/regist_kn_hn_1_0_1/images/icon-user.png" alt="">
                                         <input name="iname" type="text" placeholder="* Họ và tên: ">
                                     </div>
                                     <div class="form-message"></div>
                                 </div>
 
                                 <div class="regist_kn_hn_1_0_1__viber form-group">
-                                    <img width="48" height="48" src="images/icon-viber.png" alt="">
+                                    <img width="48" height="48" src="https://kangnamaesthetichospital.com/wp-content/themes/thuonghieu_kangnam/Module/Popup/regist_kn_hn_1_0_1/images/icon-viber.png" alt="">
                                     <input onsubmit="return checkInp()" name="iviber" type="text"
                                         placeholder="* Viber:">
                                         <div class="form-message"></div>
                                 </div>
                                 <div class="regist_kn_hn_1_0_1__whatsapp form-group">
-                                    <img width="48" height="48" src="images/icon-whatsapp.png" alt="">
+                                    <img width="48" height="48" src="https://kangnamaesthetichospital.com/wp-content/themes/thuonghieu_kangnam/Module/Popup/regist_kn_hn_1_0_1/images/icon-whatsapp.png" alt="">
                                     <input onsubmit="return checkInp()" name="iwhatsapp" type="text"
                                         placeholder="* Whatsapp:">
                                         <div class="form-message"></div>
 
                                 </div>
                                 <div class="regist_kn_hn_1_0_1__zalo form-group">
-                                    <img width="48" height="48" src="images/icon-zalo.png" alt="">
+                                    <img width="48" height="48" src="https://kangnamaesthetichospital.com/wp-content/themes/thuonghieu_kangnam/Module/Popup/regist_kn_hn_1_0_1/images/icon-zalo.png" alt="">
                                     <input onsubmit="return checkInp()" name="izalo" type="text"
                                         placeholder="* Zalo:">
                                         <div class="form-message"></div>
@@ -84,8 +84,8 @@ const regist_kn_hn_1_0_1 = `
         </div>
     </form>
 `;
-if (document.querySelectorAll(".kntv")) {
-  const callregist_kn_hn_1_0_1 = document.querySelectorAll(".kntv");
+if (document.querySelectorAll(".knkm")) {
+  const callregist_kn_hn_1_0_1 = document.querySelectorAll(".knkm");
   for (let i = 0; i < callregist_kn_hn_1_0_1.length; i++) {
     callregist_kn_hn_1_0_1[i].addEventListener("click", () => {
       document
