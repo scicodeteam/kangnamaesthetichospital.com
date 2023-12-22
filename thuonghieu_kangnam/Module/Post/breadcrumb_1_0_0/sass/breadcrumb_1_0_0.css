@@ -1,0 +1,20 @@
+.breadcrumb_1_0_0 {
+  width: 100%;
+  height: auto;
+  background: #ececec;
+  padding: 10px;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.breadcrumb_1_0_0 p {
+  margin: 0;
+}
+
+.breadcrumb_1_0_0 span {
+  color: #333;
+}
+
+.breadcrumb_1_0_0 a {
+  color: #333;
+}/*# sourceMappingURL=breadcrumb_1_0_0.css.map */
