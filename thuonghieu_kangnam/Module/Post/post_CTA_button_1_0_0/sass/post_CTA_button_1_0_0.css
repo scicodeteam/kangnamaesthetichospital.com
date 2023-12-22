@@ -1,0 +1,113 @@
+a {
+  text-decoration: none;
+}
+
+.post_CTA_button_1_0_0 {
+  margin: 30px 0;
+}
+.post_CTA_button_1_0_0_box {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+}
+.post_CTA_button_1_0_0_box a {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: monospace;
+  display: block;
+}
+.post_CTA_button_1_0_0_box_tv img {
+  width: 70%;
+}
+.post_CTA_button_1_0_0_box_dk {
+  background-color: #D7D7D7;
+  padding: 8px 20px;
+  border-radius: 10px;
+  color: #333;
+  margin-top: -10px;
+  box-shadow: 0px 2px 0px 2px #D7D7D7;
+}
+.post_CTA_button_1_0_0_box_number {
+  background-color: #092771;
+  color: #fff;
+  padding: 5px;
+  font-size: 22px;
+  border-radius: 100%;
+  font-weight: 600;
+}
+
+@media (max-width:414px) {
+  .post_CTA_button_1_0_0_box {
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 10px auto;
+  }
+  .post_CTA_button_1_0_0_box a {
+    font-size: 16px;
+  }
+  .post_CTA_button_1_0_0_box_tv {
+    width: 50%;
+  }
+  .post_CTA_button_1_0_0_box_tv img {
+    width: 100%;
+  }
+  .post_CTA_button_1_0_0_box_dk {
+    width: 40%;
+    margin-left: 10px;
+    padding: 9px 10px;
+    box-shadow: unset;
+    margin-top: -4px;
+  }
+  .post_CTA_button_1_0_0_box_number {
+    padding: 3px 4px;
+    font-size: 16px;
+  }
+  .post_CTA_button_1_0_0 .regist_uudai .post_CTA_button_1_0_0_box_dk {
+    padding: 11px 10px;
+    margin-top: -2px;
+  }
+  .post_CTA_button_1_0_0 .regist_dangky .post_CTA_button_1_0_0_box_dk {
+    padding: 14px 10px;
+  }
+}
+@media (max-width:375px) {
+  .post_CTA_button_1_0_0_box_tv {
+    width: 50%;
+  }
+  .post_CTA_button_1_0_0_box_dk {
+    width: 40%;
+    padding: 7px 10px;
+    margin-top: -3px;
+  }
+  .post_CTA_button_1_0_0 .regist_uudai .post_CTA_button_1_0_0_box_dk {
+    padding: 9px 10px;
+  }
+  .post_CTA_button_1_0_0 .regist_dangky .post_CTA_button_1_0_0_box_dk {
+    padding: 12px 10px;
+  }
+}
+@media (max-width:320px) {
+  .post_CTA_button_1_0_0_box a {
+    font-size: 14px;
+  }
+  .post_CTA_button_1_0_0_box_tv img {
+    height: 30px;
+  }
+  .post_CTA_button_1_0_0_box_dk {
+    padding: 7px 10px;
+    margin-top: -4px;
+  }
+  .post_CTA_button_1_0_0_box_number {
+    font-size: 12px;
+    padding: 2px 3px;
+  }
+  .post_CTA_button_1_0_0 .regist_uudai .post_CTA_button_1_0_0_box_dk {
+    padding: 7px 10px;
+    margin-top: -4px;
+  }
+  .post_CTA_button_1_0_0 .regist_dangky .post_CTA_button_1_0_0_box_dk {
+    padding: 7px 10px;
+  }
+}/*# sourceMappingURL=post_CTA_button_1_0_0.css.map */
