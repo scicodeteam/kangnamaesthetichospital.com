@@ -1,32 +1,53 @@
 .footer_knhn_1_0_0 {
-  // font-family: var(--primary-font);
+  &__note {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 87, 134, 0.6);
+    padding: 5px 0;
+    color: #fff;
+
+    @media (max-width: 767px) {
+      position: unset;
+      background: #033c9a;
+      font-size: 13px;
+    }
+  }
+
   background: #003c77;
   padding: 30px 0;
   font-size: 14px;
+
   &__inner {
     display: flex;
   }
+
   &__aside {
     width: 40%;
   }
+
   &__logo {
     max-width: 215px;
     margin-bottom: 20px;
+
     img {
       width: 100%;
       height: auto;
       display: block;
     }
   }
+
   &__box {
     flex: 1;
     padding: 0 90px;
   }
+
   &__contact {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
+
     &Item {
       width: 100%;
       display: flex;
@@ -38,96 +59,123 @@
       border-radius: 12px;
       padding: 5px 20px;
     }
+
     &Icon {
       width: 70px;
+
       img {
         width: 100%;
         height: auto;
         display: block;
       }
     }
+
     &Text {
-      text-align: center;
       text-transform: uppercase;
       font-weight: 600;
       font-size: 1.1rem;
+      flex: 1;
+
       span {
         display: block;
+      }
+
+      &Label {
+        padding-left: 56px;
+      }
+
+      &Number {
         color: #fec465;
-        font-size: 2.3rem;
+        font-size: 3.1rem;
         line-height: 1.2;
       }
     }
   }
+
   &__item {
     color: #fff;
     margin-top: 15px;
   }
+
   &__slogan {
     color: #fec465;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+
     &--1 {
       display: none;
     }
   }
+
   &__info {
     text-align: justify;
     margin-top: 5px;
     font-size: 14px;
   }
+
   &__address {
     p {
       color: #fff;
     }
+
     &--1 {
       .footer_knhn_1_0_0__img img {
         width: 25px;
       }
     }
   }
+
   &__img {
     display: flex;
     align-items: center;
     gap: 5px;
     margin-bottom: 10px;
+
     p {
       margin: 0;
       color: #fec465;
+
       a {
         color: #fff;
       }
     }
+
     img {
       width: 20px;
       height: auto;
     }
   }
+
   &__content {
     display: flex;
     margin: 15px 0;
     gap: 10px;
   }
+
   &__icon {
     img {
       height: auto;
       display: block;
       transition: 0.5s;
+
       &:hover {
         opacity: 0.5;
       }
     }
   }
+
   &__list {
     display: flex;
     align-items: center;
     gap: 10px;
+
     span {
       color: #fff;
       padding: 5px 15px;
       border-radius: 30px;
       border: 1px solid #fff;
+
       &:hover {
         background-color: #fff;
         color: #003c77;
@@ -135,110 +183,156 @@
       }
     }
   }
+
   @media (max-width: 1200px) {
     &__logo {
       max-width: 190px;
     }
+
     &__box {
       padding: 0 30px;
     }
-    &__contactText span {
-      font-size: 2rem;
-    }
   }
+
   @media (max-width: 1024px) {
     &__box {
       padding: 0 20px;
     }
+
     &__contact {
       flex-wrap: wrap;
       justify-content: center;
     }
+
     &__contactIcon {
       width: 60px;
     }
-    &__contactText span {
-      font-size: 1.8rem;
-    }
+
     &__content {
       flex-wrap: wrap;
     }
+
+    &__contactTextNumber {
+      font-size: 2.2rem;
+    }
   }
+
   @media (max-width: 767px) {
+    &__contactTextNumber {
+      font-size: 1.8rem;
+    }
+
     &__inner {
       flex-direction: column;
     }
+
     &__aside {
       width: 100%;
     }
+
     &__logo {
       max-width: 170px;
       margin-left: auto;
       margin-right: auto;
     }
+
     &__slogan {
       text-align: center;
       margin-bottom: 5px;
+
       &--1 {
         display: block;
       }
+
       &--2 {
         display: none;
       }
     }
+
     &__box {
       padding: 0;
     }
+
     &__contact {
       flex-direction: column;
     }
+
     &__contactItem {
-      width: 100%;
+      width: auto;
       justify-content: center;
     }
+
     &__item {
       width: 100%;
     }
+
     &__img {
       justify-content: center;
     }
+
     &__address {
       border-bottom: 1px solid #fff;
       margin-top: 10px;
+
       &--1 {
         text-align: center;
         border: none;
         margin-top: 10px;
       }
     }
+
     &__content {
       flex-direction: column;
       margin: 0 0 30px;
       gap: 20px;
     }
+
     &__list {
       justify-content: center;
+
       &--1 {
         order: 3;
       }
     }
+
     &__pic {
       width: 43%;
+
       img {
         width: 100%;
       }
     }
   }
+
   @media (max-width: 320px) {
+    &__contactItem {
+      gap: 0;
+    }
+
+    &__contactTextLabel {
+      padding-left: 0;
+    }
+
+    &__contactIcon img {
+      width: 50px;
+    }
+
+    &__contactTextNumber {
+      font-size: 1.4rem;
+    }
+
     &__logo {
       max-width: 160px;
     }
+
     &__img {
       width: 85%;
     }
+
     &__pic {
       width: 50%;
     }
+
     &__list span {
       padding: 5px;
       font-size: 12px;
@@ -246,4 +340,14 @@
       text-align: center;
     }
   }
+}
+
+@media(max-width:280px) {
+  .footer_knhn_1_0_0__contactTextNumber {
+    font-size: 1.1rem;
+  }
+
+
+
+
 }
